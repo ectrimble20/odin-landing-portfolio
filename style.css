@@ -9,6 +9,59 @@
     --quote-text-color: #1F2937;
 }
 
+* {
+    border: 1px solid #fff;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    border: 0px;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    height: 70px;
+    color: var(--header-text-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-logo {
+    flex: 1;
+    display: flex;
+    font-size: 24px;
+}
+
+.header-menu {
+    flex: 1;
+    display: flex;
+}
+
+.header-menu ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu a {
+    color: var(--header-text-color);
+    text-decoration: none;
+}
+
+
+/*
 .hero-main {
     font-size: 48px;
     font-weight: bolder;
@@ -17,11 +70,6 @@
 
 .hero-secondary {
     font-size: 18px;
-}
-
-.header {
-    font-size: 24px;
-    color: var(--header-text-color)
 }
 
 button {
@@ -46,3 +94,4 @@ button.call-to-action-button {
     font-size: 36px;
     font-style: italic;
 }
+*/
