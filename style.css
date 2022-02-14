@@ -82,20 +82,62 @@ body {
 }
 
 .landing-image {
+    display: flex;
     width: 400px;
     height: 200px;
     background-color: var(--hero-text-color-second);
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.landing-shoutout button {
+button {
     width: 100px;
-    height: 32px;
-    border-radius: 10px;
+    height: 28px;
+    border-radius: 5px;
     color: white;
     background-color: var(--button-color);
 }
 
+.call-to-action-button {
+    border: 2px solid #fff;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.info-header {
+    color: var(--info-header-text-color)
+}
+
+.info-card-container {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.card-image {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+}
 
 /*
 .hero-main {
