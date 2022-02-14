@@ -139,6 +139,27 @@ button {
     font-size: 14px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quote-bg-color);
+    color: var(--quote-text-color);
+    padding: 50px 120px;
+}
+
+.quote-text {
+    font-style: italic;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.quote-author {
+    font-weight: 900;
+    color: #000;
+}
+
 /*
 .hero-main {
     font-size: 48px;
