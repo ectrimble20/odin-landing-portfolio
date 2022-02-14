@@ -60,6 +60,40 @@ body {
 .header-menu a {
     color: var(--header-text-color);
     text-decoration: none;
+    font-size: 18px;
+}
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-shoutout {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-shoutout h1 {
+    color: var(--hero-text-color)
+}
+
+.landing-shoutout p {
+    color: var(--hero-text-color-second)
+}
+
+.landing-image {
+    width: 400px;
+    height: 200px;
+    background-color: var(--hero-text-color-second);
+    text-align: center;
+}
+
+.landing-shoutout button {
+    width: 100px;
+    height: 32px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--button-color);
 }
 
 
